@@ -1,0 +1,80 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+
+body {
+    background: rgb(149, 231, 252);
+}
+.box {
+	width: 800px;
+    height: 500px;
+    background: white;
+	border-radius: 10px;
+    margin: 50px auto;
+	box-shadow: 0.5px 0.5px 10px rgb(102, 102, 102);
+	display: flex;
+}
+.box-left {
+	width: 50%;
+
+}
+.box-left .fa-envelope {
+	color: rgb(1, 189, 1);
+	rotate: ;
+	margin-top: 200px;
+	margin-left: 150px;
+	font-size: 100px;
+	filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+  display: inline-block;
+}
+.title {
+	text-align: center;
+	margin: 50px 150px 20px 150px;
+	width: 200px;
+}
+.inputs {
+	flex-direction: column;
+	display: flex;
+	
+}
+.inputs input {
+	margin: 5px 100px;
+	height: 10px;
+	width: 300px;
+	padding: 20px;
+	border-radius: 30px;
+	border: 0;
+	background-color: rgb(241, 241, 241);
+}
+
+.inputs ::placeholder {
+	color: grey;
+	padding: 20px;
+}
+
+.input-massege input {
+	margin: 5px 100px;
+	height: 40px;
+	width: 300px;
+	padding: 20px;
+	border-radius: 10px;
+	border: 0;
+	background-color: rgb(241, 241, 241);
+}
+.button button {
+	text-decoration: none;
+	color: white;
+	background-color: rgb(0, 192, 0);
+	border: 0;
+	border-radius: 20px;
+	margin: 20px 200px;
+	width: 150px;
+	height: 50px;
+}
